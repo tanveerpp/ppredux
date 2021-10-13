@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ppredux/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ppredux/static/js/main.16cdf584.chunk.js",
+    "main.js.map": "/ppredux/static/js/main.16cdf584.chunk.js.map",
+    "runtime-main.js": "/ppredux/static/js/runtime-main.86815c5c.js",
+    "runtime-main.js.map": "/ppredux/static/js/runtime-main.86815c5c.js.map",
+    "static/css/2.0f1110e3.chunk.css": "/ppredux/static/css/2.0f1110e3.chunk.css",
+    "static/js/2.dc538e1a.chunk.js": "/ppredux/static/js/2.dc538e1a.chunk.js",
+    "static/js/2.dc538e1a.chunk.js.map": "/ppredux/static/js/2.dc538e1a.chunk.js.map",
+    "static/js/3.efb0306c.chunk.js": "/ppredux/static/js/3.efb0306c.chunk.js",
+    "static/js/3.efb0306c.chunk.js.map": "/ppredux/static/js/3.efb0306c.chunk.js.map",
+    "index.html": "/ppredux/index.html",
+    "static/css/2.0f1110e3.chunk.css.map": "/ppredux/static/css/2.0f1110e3.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/ppredux/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.dc538e1a.chunk.js.LICENSE.txt": "/ppredux/static/js/2.dc538e1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86815c5c.js",
+    "static/css/2.0f1110e3.chunk.css",
+    "static/js/2.dc538e1a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.16cdf584.chunk.js"
+  ]
+}
