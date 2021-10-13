@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import {useSelector,useDispatch} from 'react-redux';
+import sqcube from './reducer/sqcube';
+import {square,cube} from './action/Squarecube';
+import Appdata from './Appdata'
+import RecipeReviewCard from './Card'
 function App() {
+  const idata=useSelector((state)=>state.sqcube);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1>App component is runnig</h1>
+      <RecipeReviewCard />
+    <h1>data in store{idata}</h1>
+    <Appdata/>
+    </>
+  )
 }
-
 export default App;
